@@ -1,7 +1,7 @@
 ---
 # Archivo task/tarea del nosqlserver. Es decir, el redis. 
 
-- name: install redis
+- name: instalacion de redis
   apt: pkg={{ item }} state=latest
   with_items:
   - redis-server
