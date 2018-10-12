@@ -1,5 +1,5 @@
 ---
-# Archivo task para el sqlserver
+# Archivo task/tareas para el sqlserver. Es decir, mysql.
 
 - name: Install sqlserver
   apt: name={{item}}
